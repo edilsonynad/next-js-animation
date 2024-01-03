@@ -15,7 +15,7 @@ body {
 #main {}
 
 .text-green {
-    color: #6ABE00;
+    color: #6ABE00 !important;
 }
 
 .border-green {
@@ -26,7 +26,17 @@ body {
     color: #818181;
 }
 
-footer, .bg-green {
+footer,
+.bg-green {
     background-color: #6ABE00;
-    ;
+}
+
+span .welcome {
+    color: #818181;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.password-recover {
+    font-size: 13px;
 }
